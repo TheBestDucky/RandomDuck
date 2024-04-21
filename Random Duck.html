@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuckyOS UI</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+            color: #d9d9d9;
+        }
+        
+        p {
+            font-size: 16px;
+            color: #d9d9d9;
+        }
+
+        .button-link {
+            display: block;
+            margin: 4px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button-link:hover {
+            background-color: #0056b3;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Random Duck</h1>
+        <img style="max-width: 550px; max-height: 400px" src="https://random-d.uk/api/randomimg"/>
+        <p>Quack!</p>
+</body>
+</html>
